@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import IndexHeader from './header'
+import IndexHeader from './Header'
 
 export default {
   name: 'index',

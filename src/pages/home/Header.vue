@@ -1,6 +1,6 @@
 <template>
-  <div class="header-con">
-    <div class="top-con">
+  <div class="header-container">
+    <div class="top-container">
       <div class="top-content">
         <div class="top-con-localcity">北京</div>
         <div class="top-con-search">
@@ -12,7 +12,7 @@
         <div class="top-con-login"></div>
       </div>
     </div>
-    <div class="under-con">
+    <div class="under-container">
       <div class="under-content">
       </div>
     </div>
@@ -23,14 +23,12 @@
 </script>
 
 <style scoped>
-  .header-con{
-    padding: 6px 78px 6px 38px;
-    height: 32px;
-    display: -webkit-box;
-    display: box;
+  .header-container{
+    width: 100%;
+    height: 1.7rem;
     background: pink;
   }
-  .top-con{
+  .top-container{
     width: 100%;
     height: .32rem;
     background: #ccc;
